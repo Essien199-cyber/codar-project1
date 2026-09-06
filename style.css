@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 200px;
+  width: 100%;
+  height: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  animation: logoMove 1s ease-in-out infinite;
+}
+
+@keyframes logoMove {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.logo a {
+  font-weight: 800;
+  font-size: 15px;
+  color: blue;
+}
+
+.logo h6 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+
+nav .login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6rem;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: blue;
+  color: white;
+  font-weight: 800;
+}
+
+nav .login-btn:hover {
+  transition: 2s ease-in;
+  text-decoration: none;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+footer {
+  margin-top: 50px;
+  background-color: black;
+  width: 100%;
+  height: 500px;
+}
+
+.footer-container {
+  display: flex;
+  gap: 50px;
+  color: white;
+  padding: 40px 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-footer h1 {
+  margin-bottom: 1rem;
+}
+
+.second-footer {
+  display: flex;
+  flex-direction: column;
+}
+.second-footer h3 {
+  margin-bottom: 1.9rem;
+}
+.second-footer a {
+  margin-bottom: 0.9rem;
+  color: white;
+}
+
+.third-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-footer h3 {
+  margin-bottom: 1.9rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.third-footer a {
+  color: white;
+  margin-bottom: 0.9rem;
+}
+
+.fourth-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-footer h3 {
+  margin-bottom: 1.9rem;
+}
+
+.fourth-footer label {
+  margin-bottom: 0.9rem;
+}
+
+.fifth-footer h3 {
+  margin-bottom: 1.9rem;
+}
+
+.fifth-footer p {
+  margin-bottom: 0.9rem;
+}
+
+
+footer hr {
+    width: 95%;
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px auto 20px;
+}
+.copyright {
+  text-align: center;
+  color: white;
+}
