@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="booking.css"/>
   </head>
   <body>
     <header>
@@ -24,6 +25,116 @@
       </nav>
     </header>
 
+    <div class="guo-background">
+<div class="booking-card">
+
+<div class="tabs">
+  <button class="tab">Local</button>
+  <button class="tab-active">International</button>
+</div>
+
+  <div class="type-trip">
+    <label><input type="radio" name="trip" checked>One way</label>
+    <label><input type="radio" name="trip">Round Trip</label>
+  </div>
+   
+<form class="guo-form">
+  <label>Departure</label>
+<select required>
+  <option value="" disabled selected>Select Departure</option>
+  <option>ABIA-ABA</option>
+  <option>ABIA-UMUAHIA</option>
+  <option>AKWA IBOM-UYO</option>
+  <option>ANAMBARA-AWKA</option>
+  <option>ANAMBARA-EKWULOBIA</option>
+  <option>ANAMBARA-IFITE-AWKA</option>
+  <option>ANAMBARA-IHIALA</option>
+  <option>ANAMBARA-NNEWI</option>
+  <option>ANAMBARA-ONITSHA</option>
+  <option>ANAMBARA-UMUNZE</option>
+  <option>CROSS RIVER-OGOJA</option>
+  <option>DELTA-ASABA</option>
+  <option>EBONYI-ABAKALIKI</option>
+  <option>EBONYI-AFIKPO</option>
+  <option>ENUGU-ENUGU</option>
+  <option>FCT (ABUJA)-KUBWA</option>
+  <option>FCT (ABUJA)-MARARABA</option>
+  <option>FCT (ABUJA)-UTAKO</option>
+  <option>FCT (ABUJA)-ZUBA</option>
+  <option>GOMBE-GOMBE</option>
+  <option>IMO-ORLU</option>
+  <option>IMO-OWERRI</option>
+  <option>LAGOS-AJAH</option>
+  <option>LAGOS-ALABA</option>
+  <option>LAGOS-COKER</option>
+  <option>LAGOS-EJIGBO</option>
+  <option>LAGOS-IBA</option>
+  <option>LAGOS-IKORODU</option>
+  <option>LAGOS-IKOTUN</option>
+  <option>LAGOS-IYANA IPAJA</option>
+  <option>LAGOS-JIBOWU</option>
+  <option>LAGOS-MAZA MAZA</option>
+  <option>LAGOS-OKOTA (CELE)</option>
+  <option>LAGOS-OTTO</option>
+  <option>RIVERS-PORT HARCORT</option>
+  <option>TARABA-JALINGO</option>
+</select>
+
+<label>Destination</label>
+<select required>
+  <option value="" disabled selected>Select Destination</option>
+   <option>ABIA-ABA</option>
+  <option>ABIA-UMUAHIA</option>
+  <option>AKWA IBOM-UYO</option>
+  <option>ANAMBARA-AWKA</option>
+  <option>ANAMBARA-EKWULOBIA</option>
+  <option>ANAMBARA-IFITE-AWKA</option>
+  <option>ANAMBARA-IHIALA</option>
+  <option>ANAMBARA-NNEWI</option>
+  <option>ANAMBARA-ONITSHA</option>
+  <option>ANAMBARA-UMUNZE</option>
+  <option>CROSS RIVER-OGOJA</option>
+  <option>DELTA-ASABA</option>
+  <option>EBONYI-ABAKALIKI</option>
+  <option>EBONYI-AFIKPO</option>
+  <option>ENUGU-ENUGU</option>
+  <option>FCT (ABUJA)-KUBWA</option>
+  <option>FCT (ABUJA)-MARARABA</option>
+  <option>FCT (ABUJA)-UTAKO</option>
+  <option>FCT (ABUJA)-ZUBA</option>
+  <option>GOMBE-GOMBE</option>
+  <option>IMO-ORLU</option>
+  <option>IMO-OWERRI</option>
+  <option>LAGOS-AJAH</option>
+  <option>LAGOS-ALABA</option>
+  <option>LAGOS-COKER</option>
+  <option>LAGOS-EJIGBO</option>
+  <option>LAGOS-IBA</option>
+  <option>LAGOS-IKORODU</option>
+  <option>LAGOS-IKOTUN</option>
+  <option>LAGOS-IYANA IPAJA</option>
+  <option>LAGOS-JIBOWU</option>
+  <option>LAGOS-MAZA MAZA</option>
+  <option>LAGOS-OKOTA (CELE)</option>
+  <option>LAGOS-OTTO</option>
+  <option>RIVERS-PORT HARCORT</option>
+  <option>TARABA-JALINGO</option>
+</select>
+
+<label>Departure Date</label>
+<input type="date" placeholder="Departure Date" required>
+
+<label>Passangers</label>
+<div class="passanger-box">
+  <div class="passanger-selected" onclick="togglePassanger()">
+  Adult: 1 &nbsp;&nbsp; Children: 0
+</div>
+
+<button type="submit" class="search-btn">Search</button>
+</form>
+
+</div>
+    </div>
 
 
 

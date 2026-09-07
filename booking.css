@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.guo-background {
+    background-color:darkblue;
+    min-height: 85vh;
+    padding: 30px 15px;
+}
+
+.booking-card {
+    background-color:white;
+    border-radius: 20px 20px 0 0;
+    padding: 25px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 -5px 20px rgba(0 0 0 0.2);
+}
+
+.tabs {
+    display:flex;
+    background-color:#f1f3f5;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    flex:1;
+    padding: 12px;
+    border: none;
+    background:transparent;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor:pointer;
+    color:#555;
+}
+
+.tab-active {
+    background-color:white;
+    color:black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 18px;
+}
+
+.type-trip {
+    display:flex;
+    gap:25px;
+    margin-bottom:25px;
+}
+
+.type-trip label {
+font-size:15px;
+display:flex;
+align-items:center;
+gap: 8px;
+}
+
+.guo-form label {
+    display:block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight:500px;
+    color:#333;
+    font-size: 15px;
+}
+
+.guo-form select,
+.guo-form input {
+width: 100%;
+padding: 14px;
+border: 1.5px solid;
+border-radius:8px;
+font-size:14px;
+outline:none;
+background-color:white;
+color:grey;
+}
+
+.passenger-box {
+    width: 100%;
+    padding:14px;
+    border: 1.5px solid;
+    border-radius:8px;
+    background-color:#fff;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-btn {
+    width: 100%;
+    padding: 14px;
+    background-color:#0d3b8a;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight:bold;
+    margin-top: 25px;
+    cursor:pointer;
+}
+
+.search-btn:hover {
+    background-color:#560ae4;
+}
