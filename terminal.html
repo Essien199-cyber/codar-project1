@@ -5,30 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="terminal.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="/home.html"><h1>GO WELL</h1></a>
-        <a href="/home.html"><h6>TRANSPORT LTD.</h6></a>
+        <a href="/home.html" aria-label="GUO Transport home">
+          <img src="assets/logo.svg" alt="GUO Transport Co." />
+        </a>
       </div>
 
       <nav>
-        <a href="/home.html">HOME</a>
-        <a href="/terminal.html">TERMINAL</a>
-        <a href="/booking.html">BOOKING</a>
-        <a href="/services.html">SERVICES</a>
-        <a href="/about.html">ABOUT US</a>
-        <a href="/contact.html">CONTACT US</a>
-        <a href="/signup.html" class="login-btn">LOGIN</a>
+        <a href="/home.html">Home</a>
+        <a href="/terminal.html">Terminals</a>
+        <a href="/booking.html">Booking</a>
+        <a href="/services.html">Services</a>
+        <a href="/about.html">About Us</a>
+        <a href="/contact.html">Contact Us</a>
+        <a href="/signup.html" class="login-btn">Login</a>
       </nav>
     </header>
 
+    <main class="terminal-page">
+      <section class="terminal-hero" aria-labelledby="terminal-title">
+        <div class="terminal-intro">
+          <h2 id="terminal-title">Terminals</h2>
+          <p>
+            Get access to our numerous terminals all over the country and choose the one
+            nearest to you for departures.
+          </p>
+          <a class="find-terminal" href="#terminal-directory">Find Terminal</a>
+          <img class="terminal-arrow" src="assets/arrow.svg" alt="" aria-hidden="true" />
+        </div>
 
+        <div class="terminal-gallery" aria-label="GUO terminal images">
+          <img src="assets/terminal-1.png" alt="GUO buses at a covered terminal" />
+          <img src="assets/terminal-2.png" alt="GUO buses outside a city terminal" />
+        </div>
+      </section>
 
+      <section class="terminal-directory" id="terminal-directory" aria-labelledby="directory-title">
+        <div class="directory-inner">
+          <h2 id="directory-title">Terminals</h2>
+          <label class="terminal-search">
+            <span class="sr-only">Search terminals</span>
+            <input type="search" placeholder="Search" />
+          </label>
 
+          <div class="terminal-grid">
+            <article class="terminal-card">
+              <h3>Accra, Ghana</h3>
+              <p>Abossey-Okai Mortuary Road (Opp. 2nd Total Filling Station), by Kaneshi R/About, Ghana.</p>
+              <a href="tel:+233599145050">&#9742; +233599145050</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Madina, Ghana</h3>
+              <p>M177, Madina Firestone, after Atomic junction, Firestone Bus Stop.</p>
+              <a href="tel:+233244134534">&#9742; +233244134534</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Spintex, Ghana</h3>
+              <p>Spintex Road opposite Batsonaa total filling station Spintex</p>
+              <a href="tel:+233248809911">&#9742; +233248809911</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Tema, Ghana</h3>
+              <p>Tema Roundabout, Shell Filling Station along the Aflao Road - Tema</p>
+              <a href="tel:+233233087274">&#9742; +233233087274</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Agege, Lagos</h3>
+              <p>3, Agunbiade Oke-koto Street, Agege, Lagos.</p>
+              <a href="tel:08075090686">&#9742; 08075090686</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ajah, Lagos</h3>
+              <p>KM 22, Epe - Expressway, Abraham Adesanya Est. Junction, Ajah, Lagos</p>
+              <a href="tel:08139996343">&#9742; 08139996343</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ajah-WC, Lagos</h3>
+              <p>KM 22, Epe - Expressway, Abraham Adesanya Est. Junction, Ajah, Lagos</p>
+              <a href="tel:08075090656">&#9742; 08075090656</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Alaba, Lagos</h3>
+              <p>Alaba International Mkt, 29, Ojo Egbegbede Road, Opp. Chemist Bus-Stop, Alaba, Lagos</p>
+              <a href="tel:08075090685">&#9742; 08075090685</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Coker, Lagos</h3>
+              <p>36 Alhaji Orire Street, Wema Bank Bus Stop, Coker, Lagos</p>
+              <a href="tel:08117000391">&#9742; 08117000391</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ejigbo, Lagos</h3>
+              <p>67A, Ikotun-Egbe Road, Opp Power Line B/Stop, Ejigbo.</p>
+              <a href="tel:08117000390">&#9742; 08117000390</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Iba, Lagos</h3>
+              <p>Iyama school bus stop beside el-shaddai hospital, Iba, Ojo, Lagos.</p>
+              <a href="tel:08075090649">&#9742; 08075090649</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ikorodu, Lagos</h3>
+              <p>37 Sagamu Road, Beside Ikorodu Police Station (Old POWA Shopping Complex), Ikorodu, Lagos</p>
+              <a href="tel:09157338890">&#9742; 09157338890</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ikosi-Ketu, Lagos</h3>
+              <p>9B. Sanwo-Olu Intl Market. Shop 14 &amp; 15, Prince S. Olujobi Block, Ikosi-Ketu, Lagos.</p>
+              <a href="tel:08075090638">&#9742; 08075090638</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ikotun, Lagos</h3>
+              <p>10 Ijegun road, Ikotun</p>
+              <a href="tel:08075090639">&#9742; 08075090639</a>
+            </article>
+            <article class="terminal-card">
+              <h3>Ikotun-WC, Lagos</h3>
+              <p>10 Ijegun road, Ikotun</p>
+              <a href="tel:08075090639">&#9742; 08075090639</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    
     <footer>
       <div class="footer-container">
         <div class="first-footer">
