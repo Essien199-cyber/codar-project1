@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 120px;
+  padding: 40px 200px;
   width: 100%;
   height: 80px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -88,7 +88,7 @@ footer {
   display: flex;
   gap: 50px;
   color: white;
-  padding: 40px 120px;
+  padding: 40px 200px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -158,13 +158,14 @@ footer hr {
 
 
 
+
 .about{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 120px;
+    padding: 40px 200px;
     gap: 100px;
     background-color: #F3F7FC;
 }
@@ -198,7 +199,7 @@ footer hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 120px;
+    padding: 40px 200px;
     gap: 100px;
     background-color: #F3F7FC;
 }
